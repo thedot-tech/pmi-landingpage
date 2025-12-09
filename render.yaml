@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: pmi-landingpage
+    env: docker
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: DB_HOST
+        sync: false
+      - key: DB_USER
+        sync: false
+      - key: DB_PASS
+        sync: false
+      - key: DB_NAME
+        sync: false
+      - key: CI_ENV
+        value: production
