@@ -86,6 +86,7 @@ $db['default'] = array(
 	'encrypt' => FALSE,
 	'compress' => FALSE,
 	'stricton' => FALSE,
+	'port'     => getenv('DB_PORT'), // Added port support
 	'failover' => array(),
 	'save_queries' => TRUE
 );
