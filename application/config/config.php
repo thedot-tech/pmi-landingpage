@@ -23,10 +23,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = getenv('RENDER_EXTERNAL_URL') ?: 'http://localhost/venpep/abishek_projects/pmi_landingpage/';
+$config['base_url'] = getenv('RENDER_EXTERNAL_URL') ?: 'https://inquiry.porecharacterisation.com/';
 $projectname = "Porosity & Permeability Testing";
 $config['sitename'] = "Porosity & Permeability Testing";
-$config['websiteaddress'] = "https://porecharacterisation.com/";
+$config['websiteaddress'] = "https://inquiry.porecharacterisation.com/";
 $config['mailid'] = "";
 $config['country'] = "India";
 
